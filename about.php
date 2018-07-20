@@ -3,7 +3,7 @@
 <head>
   <title>Heroku Test</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
- <!-- <link rel="stylesheet" type="text/css" href="css/index.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
