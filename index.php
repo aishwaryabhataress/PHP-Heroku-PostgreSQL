@@ -30,15 +30,15 @@
 </nav>
 
 <?php
-  //echo 'This is Index Page';
+  echo 'This is Index Page';
 
-  $sql = 'SELECT * FROM users';
+  /*$sql = 'SELECT * FROM users';
   $stmt = $pdo->prepare($sql);
   $stmt->execute();
   $rowCount = $stmt->rowCount();
   $details = $stmt->fetch();
 
-  print_r ($details);
+  print_r ($details);*/
 ?>
 
 </body>
