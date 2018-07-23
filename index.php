@@ -31,7 +31,11 @@
 
 <?php
  // echo 'This is Index Page';
-
+$conn = pg_pconnect("dbname=d3ckvlr3hl8sdn");
+if (!$conn) {
+  echo "An error occurred.\n";
+  exit;
+}
   $sql = 'SELECT * FROM contact';
   $stmt = $pdo->prepare($sql);
   $stmt->execute();
